@@ -31,7 +31,7 @@ function printAnalyzeResult(result: AnalyzeResult | string): string {
 }
 
 export const Task2 = () => {
-  const input = "Przykładowe dane wejściowe";
+  const input = "Dane wejściowe";
   const analyzed = analyzeString(input);
   const printedResult = printAnalyzeResult(analyzed);
 
